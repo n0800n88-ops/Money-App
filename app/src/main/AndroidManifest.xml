@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MoneyApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".ReportActivity"
+            android:exported="false"
+            android:label="@string/title_activity_report"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".CardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_card"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".BudgetSettingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_budget_setting"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".ReminderSettingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_reminder_setting"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".AssignSuccessActivity"
+            android:exported="false"
+            android:label="@string/title_activity_assign_success"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false"
+            android:label="@string/title_activity_account"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".LoginSuccessActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login_success"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".AssignSeccess"
+            android:exported="false"
+            android:label="@string/title_activity_assign_seccess"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:exported="false"
+            android:label="@string/title_activity_privacy_policy"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".TermsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_terms"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".AssignActivity"
+            android:exported="false"
+            android:label="@string/title_activity_assign"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".ui.theme.AssignActivity"
+            android:exported="false"
+            android:label="@string/title_activity_assign"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".main"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.MoneyApp" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MoneyApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

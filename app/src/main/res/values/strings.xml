@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MoneyApp</string>
+    <string name="title_activity_main">main</string>
+    <string name="title_activity_assign">AssignActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_terms">TermsActivity</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicyActivity</string>
+    <string name="title_activity_assign_seccess">AssignSeccess</string>
+    <string name="title_activity_login_success">LoginSuccessActivity</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_assign_success">AssignSuccessActivity</string>
+    <string name="title_activity_reminder_setting">ReminderSettingActivity</string>
+    <string name="title_activity_budget_setting">BudgetSettingActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_card">CardActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_report">ReportActivity</string>
+</resources>
